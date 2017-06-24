@@ -1,0 +1,11 @@
+{
+  "name": "Command-processor",
+  "version": "0.0.1",
+  "factorio_version": "0.15",
+  "title": "Command processor",
+  "author": ["Aidan647", "verlog"],
+  "contact": "",
+  "homepage": "",
+  "description": "Programmable circuit network processor",
+  "dependencies": ["base >= 0.15.0"]
+}
