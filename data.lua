@@ -1,1 +1,2 @@
-data.raw["constant-combinator"]["constant-combinator"].item_slot_count =
+require("config")
+require("prototypes.item")
