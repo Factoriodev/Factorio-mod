@@ -7,13 +7,13 @@
     subgroup = "circuit-network",
     place_result="command-processor",
     order = "c[combinators]-c[constant-combinator]",
-    stack_size= 50,
+    stack_size= 50, 
     },
     {
     type = "recipe",
     name = "command-processor",
     enabled = true,
-    energy_required = 0.1,
+    energy_required = 0.05,
     ingredients =
     {
     },
