@@ -20,7 +20,7 @@
     result = "command-processor"
   },
   {
-    type = "command-processor",
+    type = "constant-combinator",
     name = "command-processor",
     icon = "__base__/graphics/icons/constant-combinator.png",
     flags = {"placeable-neutral", "player-creation"},
