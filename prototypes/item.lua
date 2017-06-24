@@ -1,8 +1,9 @@
     data:extend({
+      {
     type = "item",
     name = "command-processor",
     icon = "__base__/graphics/icons/constant-combinator.png",
-    flags = { "goes-to-quickbar" },
+    flags = {"goes-to-quickbar"},
     subgroup = "circuit-network",
     place_result="command-processor",
     order = "c[combinators]-c[constant-combinator]",
@@ -12,7 +13,10 @@
     type = "recipe",
     name = "command-processor",
     enabled = true,
-    ingredients = {    },
+    energy_required = 0.1,
+    ingredients =
+    {
+    },
     result = "command-processor"
   },
   {
@@ -176,4 +180,5 @@
     },
 
     circuit_wire_max_distance = 7.5
-  })
+  }
+})
